@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- scripts and stylesheets -->
+    <script type="text/javascript" src="rainScript.js"></script>
+    <link rel="stylesheet" href="collision_style.css" />
+    <title>RAIN Experiment</title>
+</head>
+<body>
+    <header id="title">
+        <h1>Singing in the rain</h1>
+    </header>
+    <div id="status">
+        <button onclick="reset()">Reset</button>
+        <h3>collisions: <span id="count"></span></h3>
+
+    </div>
+    <!-- animation box -->
+    <main id="main">
+        <div id="collision_box">
+            <table id="rain_table">
+                <tr>
+                <th>rain x</th>
+                <th>rain y</th>
+               
+                </tr>
+                <tr>
+                    <td id="x-coord">None</td>
+                    <td id="y-coord">None</td>
+                   
+                </tr>
+
+            </table>
+            <table></table>
+        </div>
+        <canvas id="rain_canvas"></canvas>
+    </main>
+
+</body>
+</html>

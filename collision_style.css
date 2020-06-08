@@ -1,0 +1,107 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    background-color: aliceblue;
+    font-family: monospace;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    border: 0;
+    width: 100vw;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+th {
+    padding: 1ch;
+    border-bottom: 1px solid black;
+}
+td {
+    border: 1px solid blue;
+    text-align: center;
+}
+canvas {
+    background-color: black;
+}
+/*  Singing in the rain Elements */
+#rain_canvas {
+    background: #88b1ca;
+    height: 50vh;
+    width: 50vw;
+}
+#collision_box {
+    border: 1px solid blue;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+#rain_table {
+    padding: 1ch;
+    width: 100%;
+    height: auto;
+}
+
+#rain_table td {
+    border: 1px solid aqua;
+}
+
+main {
+    border: solid 1px aqua;
+}
+
+
+
+/*  End rain  */
+.center {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+#planet_box {
+    display: flex;
+    alignt-items: center;
+    justify-content: center;
+}
+
+#bounce_table {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    background: transparent;
+    color: white;
+}
+
+/*  form styling */
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 12ch;
+    align-self: center;
+    margin-top: 2vh;
+    color: blue;
+    background: #fbf1f8;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 2px 1px lightslategrey;
+    padding: 1ch;
+}
+
+
